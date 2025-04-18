@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModuLearnERP.Application\ModuLearnERP.Application.csproj" />
+    <ProjectReference Include="..\ModuLearnERP.Communication\ModuLearnERP.Communication.csproj" />
+    <ProjectReference Include="..\ModuLearnERP.Exception\ModuLearnERP.Exception.csproj" />
+    <ProjectReference Include="..\ModuLearnERP.Infrastructure\ModuLearnERP.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

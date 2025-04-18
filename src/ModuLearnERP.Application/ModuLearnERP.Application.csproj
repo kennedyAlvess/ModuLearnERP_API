@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModuLearnERP.Communication\ModuLearnERP.Communication.csproj" />
+    <ProjectReference Include="..\ModuLearnERP.Domain\ModuLearnERP.Domain.csproj" />
+    <ProjectReference Include="..\ModuLearnERP.Exception\ModuLearnERP.Exception.csproj" />
+  </ItemGroup>
+
+</Project>
